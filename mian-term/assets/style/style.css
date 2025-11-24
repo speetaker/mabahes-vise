@@ -1,0 +1,136 @@
+/* Basic reset and settings for the whole page */
+body {
+    font-family: Arial, sans-serif; /* Simple font */
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+    color: #333;
+    direction: ltr; /* Left-to-right direction for English */
+}
+
+/* Main container for centering and width */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 20px;
+    background-color: #f7e6f9; /* Soft pink/purple color */
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.greeting {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: -5px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Circle image */
+    object-fit: cover;  /*fit picture*/
+    border: 5px solid #fff;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #c71585; /* Deep pink color */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.2em;
+}
+
+.title {
+    color: #555;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.about-me {
+    background-color: #ffe6f7;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+.main-content {
+    display: flex;
+    gap: 20px; /* Space between columns */
+}
+
+.info-column, .claims-skills-column {
+    flex: 1; /* Makes each column take equal space */
+}
+
+h2 {
+    color: #c71585;
+    border-bottom: 2px solid #ffe6f7;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+.info-box, .extra-info-box, .claims-box, .skills-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-box ul, .extra-info-box ul, .claims-box ul {
+    list-style: none; /* Remove list points */
+    padding: 0;
+}
+
+.info-box li, .extra-info-box li, .claims-box li {
+    margin-bottom: 8px;
+    line-height: 1.5; /*adding space between line */
+}
+
+/* Styling for Skill Bars */
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skill-item span {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    background-color: #eee;
+    height: 15px;
+    border-radius: 10px;
+}
+
+.skill-bar div {
+    background-color: #ff69b4; /* Skill bar color (Hot Pink) */
+    height: 100%;
+    border-radius: 10px;
+}
+
+.phyton{
+    width: 60%;
+}
+.IoT{
+    width: 75%;
+}
+.game{
+    width: 35%;
+}
+.html{
+    width: 53%;
+}

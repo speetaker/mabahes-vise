@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.box1 {
+    width: 120px;
+    height: 60px;
+    background-color: #6e34db;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.box2 {
+    width: 120px;
+    height: 60px;
+    background-color: #6e34db;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+.box3 {
+    width: 120px;
+    height: 60px;
+    background-color: #6e34db;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+.box2 {
+    background-color: #6e34db;
+}
+
+.box3 {
+    background-color: #6e34db;
+}
+
+input {
+    display: none;
+}
+
+#click1:checked ~ .container .box1 {
+    width: 200px;
+    background-color: #e19b9b;
+}
+
+#click2:checked ~ .container .box2 {
+    width: 200px;
+    background-color: #e19b9b;
+}
+
+#click3:checked ~ .container .box3 {
+    width: 200px;
+    background-color: #e19b9b;
+}
